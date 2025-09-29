@@ -1,7 +1,7 @@
 # COMPOSITIONAL IMAGE SYNTHESIS WITH INFERENCE TIME SCALING
 [[**arXiv : TBU**]()] [[**Project Page : TBU**]()]
 
-[Minsuk Ji](), [Sanghyeok Lee](),  [Namhyuk Ahn](https://nmhkahn.github.io)<sup>†</sup> <br>
+[Minsuk Ji](), [Sanghyeok Lee](https://github.com/lexxsh),  [Namhyuk Ahn](https://nmhkahn.github.io)<sup>†</sup> <br>
 Inha University <br>
 Corresponding author<sup>†</sup><br>
 
