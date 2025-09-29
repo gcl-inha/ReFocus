@@ -1,4 +1,3 @@
-<img width="1980" height="596" alt="pipeline" src="https://github.com/user-attachments/assets/442467c6-ecd6-4f16-b994-68ad33dab2ed" />
 # COMPOSITIONAL IMAGE SYNTHESIS WITH INFERENCE TIME SCALING
 [[**arXiv**]()] [[**Project Page**]()]
 
@@ -13,6 +12,8 @@ Specifically, we leverage large language models (LLMs) to synthesize explicit la
 By unifying explicit layout-grounding with self-refine-based inference-time scaling, our framework achieves stronger scene alignment with prompts compared to recent text-to-image models.
 
 ### Overview
+<img width="1980" height="596" alt="pipeline" src="https://github.com/user-attachments/assets/442467c6-ecd6-4f16-b994-68ad33dab2ed" />
+### Visual comparison
 ### Stage 1
 ### Stage 2
 ### Stage 3
