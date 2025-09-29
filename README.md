@@ -23,7 +23,7 @@ In this stage, we extract bounding-box layouts from GPT-4o.
 Scripts:
 
     ./layout/geneval_layout.py (for Geneval)
-    ./layout/hpsv_layout.py (for HPSv2)
+    ./layout/hpsv2_layout.py (for HPSv2)
 
 - Important: Each script contains a line at the top:
 ```shell
