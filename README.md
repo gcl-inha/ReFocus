@@ -13,10 +13,43 @@ By unifying explicit layout-grounding with self-refine-based inference-time scal
 
 ## Overview
 <img width="1980" height="596" alt="pipeline" src="https://github.com/user-attachments/assets/442467c6-ecd6-4f16-b994-68ad33dab2ed" />
+
 ## Visual comparison
-## Stage 1
-## Stage 2
+<img width="836" height="362" alt="image" src="https://github.com/user-attachments/assets/5bd8181d-fa59-460b-b6ec-75ad1cdce87d" />
+
+## Stage 1: LLM-based Layout Generation
+In this stage, we extract bounding-box layouts from GPT-4o.
+
+Scripts:
+
+    ./layout/geneval_layout.py (for Geneval)
+    ./layout/hpsv_layout.py (for HPSv2)
+
+- Important: Each script contains a line at the top:
+```shell
+# Please insert your own OpenAI API key here to enable layout generation.
+client = OpenAI(api_key="")
+```
+This stage corresponds to the Stage 1: LLM-based Layout Generation in the paper.
+
+## Stage 2: Layout-Grounded Generation
+This stage generates images conditioned on the extracted layouts.
+
+- Implementation is adapted from the [MIGC repository](https://github.com/limuloo/MIGC), and the corresponding code is included under:
+```shell
+    ./geneval (for Geneval)
+    ./hpsv2 (for HPSv2)
+```
+This stage corresponds to Stage 2: Layout-Grounded Generation in the paper.
+
 ## Stage 3
+In this stage, the initially generated images are progressively refined.
+
+- Implementation is adapted from SDXL-Turbo, with additional CLIP similarity scoring applied at intermediate steps.
+
+- The refinement code is integrated into the same generation folders as Stage 2 (./geneval, ./hpsv2).
+
+This stage corresponds to Stage 3: Iterative Self-Refinement in the paper.
 
 ## Reproduce Experiments in Table 2
 <img width="902" height="195" alt="image" src="https://github.com/user-attachments/assets/f12fa904-3d02-4716-bad6-c1bb460d4a86" />
