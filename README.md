@@ -17,6 +17,9 @@ By unifying explicit layout-grounding with self-refine-based inference-time scal
 ## Visual comparison
 <img width="836" height="362" alt="image" src="https://github.com/user-attachments/assets/5bd8181d-fa59-460b-b6ec-75ad1cdce87d" />
 
+## Installation
+..To Be Update..
+
 ## Stage 1: LLM-based Layout Generation
 In this stage, we extract bounding-box layouts from GPT-4o.
 
