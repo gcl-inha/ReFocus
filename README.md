@@ -1,3 +1,4 @@
+<img width="1980" height="596" alt="pipeline" src="https://github.com/user-attachments/assets/442467c6-ecd6-4f16-b994-68ad33dab2ed" />
 # COMPOSITIONAL IMAGE SYNTHESIS WITH INFERENCE TIME SCALING
 [[**arXiv**]()] [[**Project Page**]()]
 
@@ -11,9 +12,7 @@ To address this challenge, we present a training-free framework that combines an
 Specifically, we leverage large language models (LLMs) to synthesize explicit layouts from input prompts, and we inject these layouts into the image generation process, where a object-centric vision-language model (VLM) judge re-ranks multiple candidates to select the most prompt-aligned outcome iteratively.
 By unifying explicit layout-grounding with self-refine-based inference-time scaling, our framework achieves stronger scene alignment with prompts compared to recent text-to-image models.
 
-### Pipeline
-<img width="1980" height="596" alt="pipeline" src="https://github.com/user-attachments/assets/442467c6-ecd6-4f16-b994-68ad33dab2ed" />
-
+### Overview
 ### Stage 1
 ### Stage 2
 ### Stage 3
