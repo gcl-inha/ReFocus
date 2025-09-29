@@ -165,4 +165,32 @@ We then run the evaluation using the provided script:
 python evaluation.py --data-type benchmark --data-path <path_to_generated_images>
 ```
 ## Citation
+
 ## License
+
+```shell
+MIT License
+
+Copyright (c) 2025 [Your Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+---------------------------------------------------------------------
+NOTICE:
+
+This repository integrates external components/models subject to their
+original licenses:
+
+- SDXL-Turbo: Stability AI Community License Agreement (Non-Commercial)  
+  https://huggingface.co/stabilityai/sdxl-turbo/blob/main/LICENSE.md
+
+- MIGC: Non-Commercial Research Only License  
+  https://github.com/limuloo/MIGC?tab=License-1-ov-file#readme
+
+Users must comply with these licenses when using the respective models.
+Commercial usage of these components is strictly prohibited.
+```
