@@ -1,5 +1,5 @@
 # COMPOSITIONAL IMAGE SYNTHESIS WITH INFERENCE TIME SCALING
-[[**arXiv**]()] [[**Project Page**]()]
+[[**arXiv : TBU**]()] [[**Project Page : TBU**]()]
 
 [Minsuk Ji](), [Sanghyeok Lee](),  [Namhyuk Ahn](https://nmhkahn.github.io)<sup>†</sup> <br>
 Inha University <br>
@@ -50,6 +50,9 @@ In this stage, the initially generated images are progressively refined.
 - The refinement code is integrated into the same generation folders as Stage 2 (./geneval, ./hpsv2).
 
 This stage corresponds to Stage 3: Iterative Self-Refinement in the paper.
+
+## Generated Images
+...TBU....
 
 ## Reproduce Experiments in Table 2
 <img width="902" height="195" alt="image" src="https://github.com/user-attachments/assets/f12fa904-3d02-4716-bad6-c1bb460d4a86" />
