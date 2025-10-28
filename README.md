@@ -1,9 +1,9 @@
 # COMPOSITIONAL IMAGE SYNTHESIS WITH INFERENCE TIME SCALING
 [[**arXiv : TBU**]()] [[**Project Page : TBU**]()]
 
-[Minsuk Ji](), [Sanghyeok Lee](https://github.com/lexxsh),  [Namhyuk Ahn](https://nmhkahn.github.io)<sup>†</sup> <br>
+[Minsuk Ji]()<sup>\*</sup>, [Sanghyeok Lee](https://github.com/lexxsh)<sup>\*</sup>,  [Namhyuk Ahn](https://nmhkahn.github.io) <br>
 Inha University <br>
-Corresponding author<sup>†</sup><br>
+<sup>\*</sup> Equal contribution<br>
 
 ## Abstract
 Despite their impressive realism, modern text-to-image diffusion models still struggle with compositionality, often failing to render accurate object counts, attributes, and spatial relations.
