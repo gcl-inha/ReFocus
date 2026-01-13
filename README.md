@@ -1,7 +1,7 @@
 # COMPOSITIONAL IMAGE SYNTHESIS WITH INFERENCE TIME SCALING
-[[**arXiv : TBU**]()] [[**Project Page : TBU**]()]
+[[arXiv](https://arxiv.org/abs/2510.24133)]
 
-[Minsuk Ji]()<sup>\*</sup>, [Sanghyeok Lee](https://github.com/lexxsh)<sup>\*</sup>,  [Namhyuk Ahn](https://nmhkahn.github.io) <br>
+[Minsuk Ji](https://scholar.google.com/citations?user=Fzen5FYAAAAJ)<sup>\*</sup>, [Sanghyeok Lee](https://github.com/lexxsh)<sup>\*</sup>,  [Namhyuk Ahn](https://nmhkahn.github.io) <br>
 Inha University <br>
 <sup>\*</sup> Equal contribution<br>
 
@@ -165,4 +165,11 @@ We then run the evaluation using the provided script:
 python evaluation.py --data-type benchmark --data-path <path_to_generated_images>
 ```
 ## Citation
-
+```
+@article{ji2025compositional,
+  title={Compositional Image Synthesis with Inference-Time Scaling},
+  author={Ji, Minsuk and Lee, Sanghyeok and Ahn, Namhyuk},
+  journal={arXiv preprint arXiv:2510.24133},
+  year={2025}
+}
+```
