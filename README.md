@@ -1,5 +1,7 @@
 # COMPOSITIONAL IMAGE SYNTHESIS WITH INFERENCE TIME SCALING
-[[arXiv](https://arxiv.org/abs/2510.24133)]
+[![arXiv](https://img.shields.io/badge/arXiv-2510.24133-b31b1b.svg)](https://arxiv.org/abs/2510.24133)
+
+**🎉 Accepted to ICASSP 2026! 🎉**
 
 [Minsuk Ji](https://scholar.google.com/citations?user=Fzen5FYAAAAJ)<sup>\*</sup>, [Sanghyeok Lee](https://github.com/lexxsh)<sup>\*</sup>,  [Namhyuk Ahn](https://nmhkahn.github.io) <br>
 Inha University <br>
